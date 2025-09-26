@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 export default async function Page({ params }) {
    const handle = (await params).handle
     const client = await clientPromise;
-    const db = client.db("bittree")
+    const db = client.db("Linktree")
     const collection = db.collection("links")
 
      // If the handle is already claimed, you cannot create the bittree
