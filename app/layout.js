@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
- title: "BitTree - Your favorite link sharing site",
+ title: "LinkTree - Your favorite link sharing site",
   description: "We brought a revolution in link sharing",
 };
 
